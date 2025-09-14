@@ -1,0 +1,31 @@
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities; 
+
+.body {
+  min-height: 100vh; 
+  font-family: 'Ownglyph_UNZ-Rg';
+} 
+
+.title {
+  font-weight: 700; 
+  font-size : 2em; 
+  color : #fbf8f9; 
+  font-family: 'Ownglyph_UNZ-Rg';
+}
+
+.title-small {
+  font-size: 1rem; 
+}
+
+.header-color {
+  background-color: #16803b; 
+  
+}
+
+@font-face {
+  font-family: 'Ownglyph_UNZ-Rg';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2406-1@1.0/Ownglyph_UNZ-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
